@@ -1,5 +1,9 @@
 body {
   font-family: 'Roboto Mono',monospace;
+  background-image: url('https://image.freepik.com/fotos-gratis/quadro-negro-inscrito-com-formulas-e-calculos-cientificos_1150-19413.jpg');
+  background-color: #cccccc;
+  
+
 }
 
 input {
@@ -7,3 +11,31 @@ input {
   padding: 6px;
 
 }
+
+.container{
+	background-color: #cccccc;
+	text-align: center;
+	padding: 10px;
+	margin-left: 30%;
+	margin-right: 30%;
+
+}
+
+.page-title {
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  margin-top: 5px;
+}
+form {
+	background-color: #cccccc;
+	width: 30%;
+	padding: 12px;  
+	border-radius: 10px;
+	margin-top: 10%;
+	margin-left: 33%;
+	margin-right: 30%;
+	text-align: center
+}
+
