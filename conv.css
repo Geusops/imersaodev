@@ -1,0 +1,9 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+}
+
+input {
+  width: 30%;
+  padding: 6px;
+
+}

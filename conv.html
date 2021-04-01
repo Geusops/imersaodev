@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>
+      Conversor de Decimal para binário
+    </title>
+	<link rel="stylesheet" href="C:\Users\gdasilva\Desktop\conv.css">
+	<script src="C:\Users\gdasilva\Desktop\conv.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+        Conversor de decimal para Hexa
+      </h1>
+      <p class="page-subtitle">
+        Mudança de base 10 para 16
+      </p>
+    </div>
+	<form name='formulario' onsubmit='event.preventDefault()'>
+      <label> Número em Decimal: </label><br>
+      <input type="text" id="decnum" name="decnum"><br><br>
+      <button onclick="convDecimal()">Converter para Hexadecimal</button>
+      <button onclick="limpar()">Limpar</button><br><br><br>
+      <label> Número em Hexadecimal:</label><br>
+      <input type="text" id="hexnum" name="hexnum"><br><br>
+      <button onclick="convHexa()">Converter para Decimal</button><br><br>
+    </form>
+  </body>
+</html>
