@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>
+        Imersão Dev - Aula 02
+    </title>
+	<link rel="stylesheet" href="G:\ImersaoDev\times.css">
+	<script src="G:\ImersaoDev\times.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Calculadora
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-calculadora.svg" class="page-logo"
+            alt="">
+    </div>
+    <div id="quadroEsq">
+      <label id="texto">Escolha uma opção</label>
+          <select name="times" id="carros" onchange="submeter()">
+            <option value="t0">...</option>
+            <option value="t1">Time 1</option>
+            <option value="t2">Time 2</option>
+            <option value="t3">Time 3</option>
+            <option value="t4">Time 4</option>
+          </select>
+    </div>
+    <div id="quadroDir">
+      <p>Escolha um nome de time:</p>
+      <div id="escTime">
+        <input type="radio" id="palmeiras" name="osTimes" value="palmeiras">
+        <label for="male">Palmeiras</label><br><br>
+        <input type="radio" id="santos" name="osTimes" value="santos">
+        <label for="female">Santos</label><br><br>
+        <input type="radio" id="saopaulo" name="osTimes" value="saopaulo">
+        <label for="other">São Paulo</label><br><br>
+        <input type="radio" id="corinthians" name="osTimes" value="corinthians">
+        <label for="other">Corinthians</label>
+      </div>
+    </div>
+    <button id="botaoVerificar" onclick="comparacao()">Verificar</button>
+	<h2 id="instrucoes">Selecione um time na esquerda e um nome na direita</h2>
+	<h1 id="resultadoFinal"></h1>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+    <h2></h2>
+</body>
+
+</html>

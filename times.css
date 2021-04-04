@@ -1,0 +1,139 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 854px;
+    background-image: url('https://mundodasgramas.com.br/wp-content/uploads/2019/11/grama-artificial-esportiva.jpg');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+	align-items: center;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+    
+  h2 {
+    position: absolute;
+    font-size:16px;
+    font-weight:bold;
+    top: 142px;
+    left: calc(50% - 72.5px);
+    width: 145px;
+    text-align:center;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+
+#quadroEsq{
+  background-color: rgba(128,128,128,0.5);
+  width: 27%;
+  height: 4%;
+  top: 20%;
+  left: 5%;
+  position: absolute;
+  border-radius: 4px;
+	box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+  text-align: center;
+  font-family: 'Marker Felt', fantasy;
+  color: white;
+}
+#botao1{
+  background-color: rgba(79,79,79,0.5);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  margin-top: 3%;
+}
+#carros{
+  background-color: rgba(128,128,128,0.5);
+  font-family:'Arial', sans-serif; 
+  width: 35%;
+  margin-top: 2%;
+}
+#texto{
+  font-family: cursive;
+  color: white;
+  text-shadow: 2px 2px #1C1C1C;
+  border-radius: 4px;
+}
+
+
+#quadroDir{
+	background-color: rgba(128,128,128,0.5);
+	width: 29%;
+	top: 20%;
+	right: 5%;
+	position: absolute;
+	border-radius: 10px;
+	box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	font-family: cursive;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px #1C1C1C;
+}
+#escTime{
+	font-family:'Marker Felt',fantasy;
+	margin-left: 10%;
+	text-align:left;
+	margin-bottom: 5%;
+	font-size:20px;
+	color: black;
+	text-shadow: 0.5px 0.5px #C0C0C0;
+}
+input[type=radio] {
+	border: 0px;
+	width: 20px;
+	height: 20px;
+}
+#botaoVerificar{
+  width: 10%;
+  top: 30%;
+  right: 45%;
+  position: absolute;
+  padding: 15px 15px;
+  background-color: #C0C0C0;
+  border: none;
+  font-size: 25px;
+  border-radius: 10px;
+  text-shadow: 0.5px 0.5px #ffffff;
+  box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+#resultadoFinal{
+	width: 15%;
+	top: 35%;
+	right: 42.5%;
+	position: absolute;
+	text-align: center;
+	font-size:50px;
+	color: white;
+	text-shadow: 0.5px 0.5px #C0C0C0;
+}
+#instrucoes{
+	color: white;
+	text-shadow: 0.5px 0.5px black;
+}
+#opcao{
+	margin-top: 3%;
+}
